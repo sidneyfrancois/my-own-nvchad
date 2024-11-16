@@ -10,7 +10,7 @@ o.relativenumber = true
 
 api.nvim_create_autocmd('textyankpost', {
   callback=function()
-    vim.highlight.on_yank({ timeout=250 })
+    vim.highlight.on_yank({ timeout=200 })
   end,
 })
 
